@@ -26,4 +26,16 @@ for ($i = 0; $i < count($prices); $i++) {
 }
 
 print_r($prices);   // show the doubled array
-echo "Total doubled sum: " . $counter;
+echo "Total doubled sum: " . $counter . PHP_EOL;
+
+$prices2 = [2, 4, 5, 5];
+
+$counter2 = 0;
+
+foreach($prices2 as $value) {
+    $value = $value *2;
+    $counter2 += $value * 2;
+}
+
+print_r($prices2);   
+echo "Total doubled sum: " . $counter2;

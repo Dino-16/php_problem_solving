@@ -32,4 +32,4 @@ for($i = 0; $i < 7; $i++) {
 }
 
 echo "Highest Temperature: $highest" . PHP_EOL;
-echo "Lowest Temperature: $lowest" . PHP_EOL;
+    echo "Lowest Temperature: $lowest" . PHP_EOL;   
